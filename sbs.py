@@ -17,14 +17,14 @@ from gtts import gTTS
 from googletrans import Translator
 import youtube_dl
 from time import sleep
-from zalgo_text import zalgo
+#from zalgo_text import zalgo
 from threading import Thread,Event
 import wikipedia as wiki
 requests.packages.urllib3.disable_warnings()
 botStart = time.time()
 msg_dict = {}
 msg_dict1 = {}
-cl = LINE()
+cl = LINE("EPndKqUsLQ93zJ0rAIl0.GkHT9Ddula+uuI8T2tTmea.Cd5ibobDwXZhiWHCD7eK8fRcYCPgQK8phG9SjTLoEj0=")
 #ajsAbi = LINE()
 
 cl.log("Auth Token : " + str(cl.authToken))
